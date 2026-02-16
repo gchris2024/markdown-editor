@@ -14,18 +14,23 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-  </head>
-  <body>
+    <link href="style.css" rel="stylesheet" />
     <!-- Vue 3 (CDN) -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <!-- marked.js (CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-    <div id="app">
-      <textarea id="input"></textarea>
-      <div id="output"></div>
-      <div id="counter"></div>
-      <span id="themeToggle" class="material-icons">light_mode</span>
+  </head>
+  <body class="p-0 m-0">
+    <div id="app" class="editor-container">
+      <span id="themeToggle" class="material-icons">dark_mode</span>
+      <textarea
+        id="input"
+        class="form-control h-100"
+        placeholder="Type here..."
+      ></textarea>
+      <div id="output" class="h-100">Foo</div>
+      <div id="counter">Count</div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
