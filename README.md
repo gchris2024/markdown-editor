@@ -3,6 +3,11 @@
 ### How to Run Locally
 
 ### Feature List
+- Show live preview
+- Display character counter (excluding HTML tags)
+- Light/Dark Theme
+- Persisting text and theme in localStorage
+- Responsive (stacked mobile / split desktop)
 
 ### Milestone 1 Quiz
 1. The purpose of `git commit` is to save changes in incremental steps.
