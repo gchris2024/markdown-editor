@@ -1,6 +1,8 @@
 ### Project Description
+Reactive Markdown editor
 
 ### How to Run Locally
+Use Live Server
 
 ### Feature List
 
@@ -24,6 +26,13 @@
 3. Responsive design should be handled in CSS, not JS, to keep logic from styling.
 4. If a media query is placed before base styles, it may get overridden by the base styles written after it.
 
+### Milestone 3 Quiz
+
+1. In Vue, `data` stores reactive state, while `computed` derives reactive values based on data and updates automatically.
+2. We should not manipulate the DOM manually in Vue because Vue uses a virtual DOM and reactive updates. Editing it manually might introduce bugs.
+3. `v-html` renders raw HTML inside an element.
+4. We must strip HTML before counting characters to only count visible text--not HTML tags.
+
 ### AI Use
 
-Used ChatGPT to help answer questions concisely and Copilot for occasional code snippets.
+Used ChatGPT to help answer questions concisely and Copilot for occasional code snippets and assistance.
