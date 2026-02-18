@@ -33,6 +33,9 @@
       ></textarea>
       <div id="output" class="h-100" v-html="htmlOutput"></div>
       <div id="counter">{{ charCount }} characters</div>
+      <button id="clearBtn" @click="clearText" class="btn btn-danger">
+        Clear
+      </button>
     </div>
     <script src="app.js"></script>
   </body>

@@ -74,3 +74,10 @@ body {
   color: #777;
   z-index: 10;
 }
+
+#clearBtn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+}
