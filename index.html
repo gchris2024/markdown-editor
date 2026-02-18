@@ -22,7 +22,9 @@
   </head>
   <body class="p-0 m-0">
     <div id="app" class="editor-container">
-      <span id="themeToggle" class="material-icons">dark_mode</span>
+      <span @click="toggleTheme" id="themeToggle" class="material-icons"
+        >{{ themeIcon }}</span
+      >
       <textarea
         id="input"
         class="form-control h-100"

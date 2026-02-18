@@ -33,6 +33,12 @@ Use Live Server
 3. `v-html` renders raw HTML inside an element.
 4. We must strip HTML before counting characters to only count visible text--not HTML tags.
 
+### Milestone 4 Quiz
+1. localStorage is a browser API for storing key-value pairs that persist
+2. `mounted()` runs when a Vue component is inserted into the DOM.
+3. A Vue watcher is a reactive listener than runs when data changes.
+4. Theme state should also be persisted for continuity across reloads and sessions.
+
 ### AI Use
 
 Used ChatGPT to help answer questions concisely and Copilot for occasional code snippets and assistance.
